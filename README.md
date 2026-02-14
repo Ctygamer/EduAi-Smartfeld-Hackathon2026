@@ -1,4 +1,70 @@
-# Welcome to your Expo app 👋
+# 🚀 EduAI Marketplace
+
+## 🇩🇪 Deutsch
+
+Eine moderne Prototyp-App einer KI-gestützten Lernplattform für Lehrpersonen.
+
+Der **EduAI Marketplace** ist eine soziale und kollaborative Plattform, auf der Lehrpersonen KI-unterstützte Unterrichtsmaterialien entdecken, teilen, bewerten und gemeinsam weiterentwickeln können. Ziel ist es, eine lernende Community zu schaffen, die den Wissensaustausch fördert und KI sinnvoll in den Unterricht integriert.
+
+### ✨ Features
+- 📚 Material-Feed mit Like-, Bookmark- und Share-Funktion
+- 💬 Interaktives Kommentarsystem
+- 🔍 Detailseiten für Unterrichtsmaterialien
+- 📱 Responsives Design (Mobile + Web)
+- 🎨 Modernes UI inspiriert von Material 3
+- ⚡ State-Management mit Zustand
+- 🔄 Datenhandling mit TanStack React Query
+
+### 🛠 Tech Stack
+- Expo SDK 54
+- React 19
+- React Native 0.81
+- Expo Router
+- TypeScript
+- Zustand
+- TanStack React Query
+- Lucide React Native / Expo Vector Icons
+
+### 🎯 Ziel
+Dieses Projekt dient als MVP (Minimum Viable Product), um ein skalierbares EdTech-Konzept zu demonstrieren, das auf Benutzerfreundlichkeit, Community-basierter Zusammenarbeit und praktischer KI-Integration im Bildungsbereich basiert.
+
+---
+
+## 🇬🇧 English
+
+A modern prototype of an AI-powered learning platform for educators.
+
+**EduAI Marketplace** is a social and collaborative platform where teachers can discover, share, rate, and improve AI-assisted teaching materials. The goal is to build a learning community that encourages knowledge exchange and enables practical AI integration in classroom environments.
+
+### ✨ Features
+- 📚 Material feed with like, bookmark, and share functionality
+- 💬 Interactive comment system
+- 🔍 Detailed material pages
+- 📱 Responsive design (mobile + web)
+- 🎨 Modern UI inspired by Material 3 principles
+- ⚡ State management with Zustand
+- 🔄 Data handling with TanStack React Query
+
+### 🛠 Tech Stack
+- Expo SDK 54
+- React 19
+- React Native 0.81
+- Expo Router
+- TypeScript
+- Zustand
+- TanStack React Query
+- Lucide React Native / Expo Vector Icons
+
+### 🎯 Purpose
+This project serves as an MVP (Minimum Viable Product) to demonstrate a scalable EdTech concept focused on user experience, community-driven collaboration, and practical AI integration in education.
+
+---
+
+## 🏗 Project Context
+
+This MVP was developed as part of the Innovationcamp Hackathon 2026 in collaboration with Smartfeld. The challenge was to design and prototype a digital platform that connects teachers and supports collaborative innovation in education.
+
+# Welcome to your Expo app 
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
