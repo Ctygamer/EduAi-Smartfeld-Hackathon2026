@@ -1,6 +1,7 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "baseUrl": null,
     "strict": true,
     "paths": {
       "@/*": [
@@ -12,6 +13,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+    "../../Library/Caches/JetBrains/WebStorm2025.3/javascript/typings/node/25.2.3/node_modules/@types/node/module.d.ts"
   ]
 }
