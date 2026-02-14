@@ -1,13 +1,24 @@
-/**
- * -------------------------------------------------------------
- * Project: EduAI Marketplace
- * File: colors.ts
- * Author: Caner Taha Yilmaz
- * Created: 14 Feb 2026
- * Description: Centralized design system color configuration used
- * across the application for consistent theming and UI styling.
- * -------------------------------------------------------------
- */
+/*
+╔══════════════════════════════════════════════════════╗
+║  ⚠  WARNING: DEVELOPER WAS HERE                      ║
+╠══════════════════════════════════════════════════════╣
+║  Project   : EduAI Marketplace                       ║
+║  File      : colors.ts                               ║
+║  Author    : Caner Taha Yilmaz                       ║
+║  Since     : 14 Feb 2026                             ║
+║                                                      ║
+║  Responsibility:                                     ║
+║  → Centralized design system colors for consistent   ║
+║    theming and UI styling across the app.            ║
+║                                                      ║
+║  Known Facts:                                        ║
+║  • Colors don’t fix bugs, but they hide them nicely. ║
+║  • One palette to rule them all.                     ║
+║                                                      ║
+║  If it looks wrong…                                  ║
+║  it’s probably not the backend.                      ║
+╚══════════════════════════════════════════════════════╝
+*/
 export default {
   primary: '#75104E',
   primaryLight: '#75104E',

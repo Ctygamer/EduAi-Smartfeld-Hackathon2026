@@ -1,13 +1,23 @@
-/**
- * -------------------------------------------------------------
- * Project: EduAI Marketplace
- * File: (home)/_layout.tsx
- * Author: Caner Taha Yilmaz
- * Created: 14 Feb 2026
- * Description: Stack layout configuration for the Home tab,
- * including navigation and header styling for material screens.
- * -------------------------------------------------------------
- */
+/*
+╔══════════════════════════════════════════════════════╗
+║  ⚠  WARNING: DEVELOPER WAS HERE                      ║
+╠══════════════════════════════════════════════════════╣
+║  Project   : EduAI Marketplace                       ║
+║  File      : (home)/_layout.tsx                      ║
+║  Author    : Caner Taha Yilmaz                       ║
+║  Since     : 14 Feb 2026                             ║
+║                                                      ║
+║  Responsibility:                                     ║
+║  → Home stack layout: controls feed navigation flow. ║
+║                                                      ║
+║  Known Facts:                                        ║
+║  • Layout files decide more than they show.          ║
+║  • If headers vanish, this is suspect #1.            ║
+║                                                      ║
+║  If navigation feels broken…                         ║
+║  this file probably knows why.                       ║
+╚══════════════════════════════════════════════════════╝
+*/
 import { Stack } from 'expo-router';
 import Colors from '@/constants/colors';
 

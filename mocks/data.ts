@@ -1,13 +1,27 @@
-/**
- * -------------------------------------------------------------
- * Project: EduAI Marketplace
- * File: data.ts
- * Author: Caner Taha Yilmaz
- * Created: 14 Feb 2026
- * Description: Mock data configuration providing sample users,
- * materials, and messages for development and UI prototyping.
- * -------------------------------------------------------------
- */
+/*
+╔══════════════════════════════════════════════════════╗
+║  ⚠  WARNING: DEVELOPER WAS HERE                      ║
+╠══════════════════════════════════════════════════════╣
+║  Project   : EduAI Marketplace                       ║
+║  File      : data.ts                                 ║
+║  Author    : Caner Taha Yilmaz                       ║
+║  Since     : 14 Feb 2026                             ║
+║                                                      ║
+║  Responsibility:                                     ║
+║  → Mock data configuration providing sample users,   ║
+║    materials, and messages for development           ║
+║    and UI prototyping.                               ║
+║                                                      ║
+║  Known Facts:                                        ║
+║  • It worked on my machine.                          ║
+║  • It has exactly one job.                           ║
+║  • If you refactor it, run the tests first.          ║
+║                                                      ║
+║  If you are reading this at 02:17 AM…                ║
+║  take a break. It’s not the server’s fault.          ║
+╚══════════════════════════════════════════════════════╝
+*/
+
 import { Material, Message, User } from '@/types';
 
 export const currentUser: User = {

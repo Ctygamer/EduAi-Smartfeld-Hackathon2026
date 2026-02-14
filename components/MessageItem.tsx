@@ -1,14 +1,23 @@
-/**
- * -------------------------------------------------------------
- * Project: EduAI Marketplace
- * File: MessageItem.tsx
- * Author: Caner Taha Yilmaz
- * Created: 14 Feb 2026
- * Description: Reusable message list item component displaying
- * conversation preview information including avatar, unread
- * message count, and navigation indicator.
- * -------------------------------------------------------------
- */
+/*
+╔══════════════════════════════════════════════════════╗
+║  ⚠  WARNING: DEVELOPER WAS HERE                      ║
+╠══════════════════════════════════════════════════════╣
+║  Project   : EduAI Marketplace                       ║
+║  File      : MessageItem.tsx                         ║
+║  Author    : Caner Taha Yilmaz                       ║
+║  Since     : 14 Feb 2026                             ║
+║                                                      ║
+║  Responsibility:                                     ║
+║  → Conversation preview row (avatar + snippet).      ║
+║                                                      ║
+║  Known Facts:                                        ║
+║  • Unread badges create urgency.                     ║
+║  • This row decides if users open the chat or not.   ║
+║                                                      ║
+║  If navigation feels broken…                         ║
+║  this component might be innocent.                   ║
+╚══════════════════════════════════════════════════════╝
+*/
 import React from 'react';
 import { StyleSheet, View, Text, Image, Pressable } from 'react-native';
 import { ChevronRight } from 'lucide-react-native';

@@ -1,13 +1,23 @@
-/**
- * -------------------------------------------------------------
- * Project: EduAI Marketplace
- * File: (profile)/index.tsx
- * Author: Caner Taha Yilmaz
- * Created: 14 Feb 2026
- * Description: Profile screen displaying user information, statistics,
- * personal materials overview, and account actions.
- * -------------------------------------------------------------
- */
+/*
+╔══════════════════════════════════════════════════════╗
+║  ⚠  WARNING: DEVELOPER WAS HERE                      ║
+╠══════════════════════════════════════════════════════╣
+║  Project   : EduAI Marketplace                       ║
+║  File      : (profile)/index.tsx                     ║
+║  Author    : Caner Taha Yilmaz                       ║
+║  Since     : 14 Feb 2026                             ║
+║                                                      ║
+║  Responsibility:                                     ║
+║  → Profile screen: shows identity, stats & actions.  ║
+║                                                      ║
+║  Known Facts:                                        ║
+║  • Profile screens are ego dashboards.               ║
+║  • Stats feel more important than they are.          ║
+║                                                      ║
+║  If numbers look suspicious…                         ║
+║  it’s probably mock data.                            ║
+╚══════════════════════════════════════════════════════╝
+*/
 import React from 'react';
 import { StyleSheet, View, Text, Image, ScrollView, Pressable } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';

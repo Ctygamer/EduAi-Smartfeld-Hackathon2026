@@ -1,13 +1,23 @@
-/**
- * -------------------------------------------------------------
- * Project: EduAI Marketplace
- * File: login.tsx
- * Author: Caner Taha Yilmaz
- * Created: 14 Feb 2026
- * Description: Login screen handling user authentication input,
- * navigation to registration, and redirect to the main tab layout.
- * -------------------------------------------------------------
- */
+/*
+╔══════════════════════════════════════════════════════╗
+║  ⚠  WARNING: DEVELOPER WAS HERE                      ║
+╠══════════════════════════════════════════════════════╣
+║  Project   : EduAI Marketplace                       ║
+║  File      : login.tsx                               ║
+║  Author    : Caner Taha Yilmaz                       ║
+║  Since     : 14 Feb 2026                             ║
+║                                                      ║
+║  Responsibility:                                     ║
+║  → Login UI: collects credentials and routes inside. ║
+║                                                      ║
+║  Known Facts:                                        ║
+║  • Passwords are always wrong the first time.        ║
+║  • KeyboardAvoidingView saves lives.                 ║
+║                                                      ║
+║  If login fails…                                     ║
+║  it’s probably not the gradient’s fault.             ║
+╚══════════════════════════════════════════════════════╝
+*/
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, TextInput, Pressable, KeyboardAvoidingView, Platform, ScrollView, Image } from 'react-native';
 import { useRouter } from 'expo-router';

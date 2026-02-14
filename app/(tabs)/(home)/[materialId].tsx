@@ -1,13 +1,24 @@
-/**
- * -------------------------------------------------------------
- * Project: EduAI Marketplace
- * File: [materialId].tsx
- * Author: Caner Taha Yilmaz
- * Created: 14 Feb 2026
- * Description: Material detail screen displaying full information,
- * interactions (like, bookmark, share), and download functionality.
- * -------------------------------------------------------------
- */
+/*
+╔══════════════════════════════════════════════════════╗
+║  ⚠  WARNING: DEVELOPER WAS HERE                      ║
+╠══════════════════════════════════════════════════════╣
+║  Project   : EduAI Marketplace                       ║
+║  File      : (home)/[materialId].tsx                 ║
+║  Author    : Caner Taha Yilmaz                       ║
+║  Since     : 14 Feb 2026                             ║
+║                                                      ║
+║  Responsibility:                                     ║
+║  → Material detail screen with interactions +        ║
+║    download functionality.                           ║
+║                                                      ║
+║  Known Facts:                                        ║
+║  • If material is undefined, check route params.     ║
+║  • Toggle states always look simpler than they are.  ║
+║                                                      ║
+║  If something feels off…                             ║
+║  console.log(materialId) before blaming React.       ║
+╚══════════════════════════════════════════════════════╝
+*/
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, ScrollView, Image, Pressable } from 'react-native';
 import { useLocalSearchParams } from 'expo-router';

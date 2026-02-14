@@ -1,13 +1,23 @@
-/**
- * -------------------------------------------------------------
- * Project: EduAI Marketplace
- * File: (messages)/index.tsx
- * Author: Caner Taha Yilmaz
- * Created: 14 Feb 2026
- * Description: Messages screen displaying user conversations and
- * integrated EduAI assistant interaction area.
- * -------------------------------------------------------------
- */
+/*
+╔══════════════════════════════════════════════════════╗
+║  ⚠  WARNING: DEVELOPER WAS HERE                      ║
+╠══════════════════════════════════════════════════════╣
+║  Project   : EduAI Marketplace                       ║
+║  File      : (messages)/index.tsx                    ║
+║  Author    : Caner Taha Yilmaz                       ║
+║  Since     : 14 Feb 2026                             ║
+║                                                      ║
+║  Responsibility:                                     ║
+║  → Messages hub: lists chats + EduAI assistant UI.   ║
+║                                                      ║
+║  Known Facts:                                        ║
+║  • If chats don’t open, check the onPress first.     ║
+║  • AI always sounds smarter than it is.              ║
+║                                                      ║
+║  If something feels off…                             ║
+║  it’s probably state, not destiny.                   ║
+╚══════════════════════════════════════════════════════╝
+*/
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, FlatList, Pressable, Image } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';

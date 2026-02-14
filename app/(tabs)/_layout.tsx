@@ -1,13 +1,23 @@
-/**
- * -------------------------------------------------------------
- * Project: EduAI Marketplace
- * File: (tabs)/_layout.tsx
- * Author: Caner Taha Yilmaz
- * Created: 14 Feb 2026
- * Description: Main tab navigation layout configuring bottom
- * navigation, icons, and styling for the core application sections.
- * -------------------------------------------------------------
- */
+/*
+╔══════════════════════════════════════════════════════╗
+║  ⚠  WARNING: DEVELOPER WAS HERE                      ║
+╠══════════════════════════════════════════════════════╣
+║  Project   : EduAI Marketplace                       ║
+║  File      : (tabs)/_layout.tsx                      ║
+║  Author    : Caner Taha Yilmaz                       ║
+║  Since     : 14 Feb 2026                             ║
+║                                                      ║
+║  Responsibility:                                     ║
+║  → Bottom tab navigation: wires icons + core routes. ║
+║                                                      ║
+║  Known Facts:                                        ║
+║  • This defines the main user universe.              ║
+║  • Icon choice influences more feelings than logic.  ║
+║                                                      ║
+║  If tabs behave strangely…                           ║
+║  check routes before blaming React.                  ║
+╚══════════════════════════════════════════════════════╝
+*/
 import { Tabs } from 'expo-router';
 import { Home, MessageCircle, Plus, Heart, User } from 'lucide-react-native';
 import React from 'react';

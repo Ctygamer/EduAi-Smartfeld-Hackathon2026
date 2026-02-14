@@ -1,13 +1,23 @@
-/**
- * -------------------------------------------------------------
- * Project: EduAI Marketplace
- * File: SearchHeader.tsx
- * Author: Caner Taha Yilmaz
- * Created: 14 Feb 2026
- * Description: Reusable header component providing search
- * functionality, navigation menu access, and Smartfeld branding.
- * -------------------------------------------------------------
- */
+/*
+╔══════════════════════════════════════════════════════╗
+║  ⚠  WARNING: DEVELOPER WAS HERE                      ║
+╠══════════════════════════════════════════════════════╣
+║  Project   : EduAI Marketplace                       ║
+║  File      : SearchHeader.tsx                        ║
+║  Author    : Caner Taha Yilmaz                       ║
+║  Since     : 14 Feb 2026                             ║
+║                                                      ║
+║  Responsibility:                                     ║
+║  → Search + quick actions header for the feed.       ║
+║                                                      ║
+║  Known Facts:                                        ║
+║  • Search boxes are hope in rectangle form.          ║
+║  • If this disappears, navigation panic begins.      ║
+║                                                      ║
+║  If search stops working…                            ║
+║  it’s never the placeholder’s fault.                 ║
+╚══════════════════════════════════════════════════════╝
+*/
 import React from 'react';
 import { StyleSheet, View, TextInput, Pressable, Image } from 'react-native';
 import { Search, Menu } from 'lucide-react-native';

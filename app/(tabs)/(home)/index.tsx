@@ -1,13 +1,23 @@
-/**
- * -------------------------------------------------------------
- * Project: EduAI Marketplace
- * File: (home)/index.tsx
- * Author: Caner Taha Yilmaz
- * Created: 14 Feb 2026
- * Description: Home screen displaying searchable teaching materials
- * in a feed-style list with navigation to detailed views.
- * -------------------------------------------------------------
- */
+/*
+╔══════════════════════════════════════════════════════╗
+║  ⚠  WARNING: DEVELOPER WAS HERE                      ║
+╠══════════════════════════════════════════════════════╣
+║  Project   : EduAI Marketplace                       ║
+║  File      : (home)/index.tsx                        ║
+║  Author    : Caner Taha Yilmaz                       ║
+║  Since     : 14 Feb 2026                             ║
+║                                                      ║
+║  Responsibility:                                     ║
+║  → Main feed: searchable list of teaching materials. ║
+║                                                      ║
+║  Known Facts:                                        ║
+║  • If nothing shows, check filteredMaterials first.  ║
+║  • Search bugs are usually case-sensitive.           ║
+║                                                      ║
+║  If the feed looks empty…                            ║
+║  it’s probably the filter, not the universe.         ║
+╚══════════════════════════════════════════════════════╝
+*/
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, FlatList } from 'react-native';
 import { useRouter } from 'expo-router';

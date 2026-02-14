@@ -1,14 +1,23 @@
-/**
- * -------------------------------------------------------------
- * Project: EduAI Marketplace
- * File: MaterialCard.tsx
- * Author: Caner Taha Yilmaz
- * Created: 14 Feb 2026
- * Description: Reusable card component displaying teaching material
- * preview information including title, author, tags, and interaction
- * statistics (likes, comments, bookmarks).
- * -------------------------------------------------------------
- */
+/*
+╔══════════════════════════════════════════════════════╗
+║  ⚠  WARNING: DEVELOPER WAS HERE                      ║
+╠══════════════════════════════════════════════════════╣
+║  Project   : EduAI Marketplace                       ║
+║  File      : MaterialCard.tsx                        ║
+║  Author    : Caner Taha Yilmaz                       ║
+║  Since     : 14 Feb 2026                             ║
+║                                                      ║
+║  Responsibility:                                     ║
+║  → Feed card preview: title, tags, stats, actions.   ║
+║                                                      ║
+║  Known Facts:                                        ║
+║  • Cards are just divs with confidence.              ║
+║  • If this renders weird, check the data first.      ║
+║                                                      ║
+║  If the UI looks broken…                             ║
+║  it might still be the API’s fault.                  ║
+╚══════════════════════════════════════════════════════╝
+*/
 import React from 'react';
 import { StyleSheet, View, Text, Image, Pressable } from 'react-native';
 import { Heart, MessageCircle, Bookmark } from 'lucide-react-native';

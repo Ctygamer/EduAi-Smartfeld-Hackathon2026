@@ -1,13 +1,23 @@
-/**
- * -------------------------------------------------------------
- * Project: EduAI Marketplace
- * File: (create)/index.tsx
- * Author: Caner Taha Yilmaz
- * Created: 14 Feb 2026
- * Description: Create Post screen allowing users to publish new
- * teaching materials including text content and file uploads.
- * -------------------------------------------------------------
- */
+/*
+╔══════════════════════════════════════════════════════╗
+║  ⚠  WARNING: DEVELOPER WAS HERE                      ║
+╠══════════════════════════════════════════════════════╣
+║  Project   : EduAI Marketplace                       ║
+║  File      : (create)/index.tsx                      ║
+║  Author    : Caner Taha Yilmaz                       ║
+║  Since     : 14 Feb 2026                             ║
+║                                                      ║
+║  Responsibility:                                     ║
+║  → Create screen: publishes new teaching materials.  ║
+║                                                      ║
+║  Known Facts:                                        ║
+║  • Users forget required fields.                     ║
+║  • File uploads look easy, but rarely are.           ║
+║                                                      ║
+║  If publish does nothing…                            ║
+║  check handlePublish before blaming React.           ║
+╚══════════════════════════════════════════════════════╝
+*/
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, TextInput, ScrollView, Pressable, Image } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';

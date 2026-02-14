@@ -1,13 +1,23 @@
-/**
- * -------------------------------------------------------------
- * Project: EduAI Marketplace
- * File: (favorites)/index.tsx
- * Author: Caner Taha Yilmaz
- * Created: 14 Feb 2026
- * Description: Favorites screen displaying all bookmarked teaching
- * materials with navigation to detailed material views.
- * -------------------------------------------------------------
- */
+/*
+╔══════════════════════════════════════════════════════╗
+║  ⚠  WARNING: DEVELOPER WAS HERE                      ║
+╠══════════════════════════════════════════════════════╣
+║  Project   : EduAI Marketplace                       ║
+║  File      : (favorites)/index.tsx                   ║
+║  Author    : Caner Taha Yilmaz                       ║
+║  Since     : 14 Feb 2026                             ║
+║                                                      ║
+║  Responsibility:                                     ║
+║  → Favorites screen: shows all bookmarked materials. ║
+║                                                      ║
+║  Known Facts:                                        ║
+║  • Empty states are silent UX teachers.              ║
+║  • If this list is empty, check isBookmarked first.  ║
+║                                                      ║
+║  If nothing appears…                                 ║
+║  it’s probably the filter, not fate.                 ║
+╚══════════════════════════════════════════════════════╝
+*/
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, FlatList } from 'react-native';
 import { useRouter } from 'expo-router';

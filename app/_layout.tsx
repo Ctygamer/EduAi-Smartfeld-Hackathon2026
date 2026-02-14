@@ -1,14 +1,23 @@
-/**
- * -------------------------------------------------------------
- * Project: EduAI Marketplace
- * File: app/_layout.tsx
- * Author: Caner Taha Yilmaz
- * Created: 14 Feb 2026
- * Description: Root layout configuration initializing global providers
- * (React Query, Gesture Handler) and defining the main stack
- * navigation including authentication flows.
- * -------------------------------------------------------------
- */
+/*
+╔══════════════════════════════════════════════════════╗
+║  ⚠  WARNING: DEVELOPER WAS HERE                      ║
+╠══════════════════════════════════════════════════════╣
+║  Project   : EduAI Marketplace                       ║
+║  File      : app/_layout.tsx                         ║
+║  Author    : Caner Taha Yilmaz                       ║
+║  Since     : 14 Feb 2026                             ║
+║                                                      ║
+║  Responsibility:                                     ║
+║  → Root layout: wires providers + global navigation. ║
+║                                                      ║
+║  Known Facts:                                        ║
+║  • If this breaks, everything breaks.                ║
+║  • Yes, the order of providers matters.              ║
+║                                                      ║
+║  If something behaves weird…                         ║
+║  restart Metro. Then question your life choices.     ║
+╚══════════════════════════════════════════════════════╝
+*/
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";

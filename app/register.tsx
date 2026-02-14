@@ -1,13 +1,23 @@
-/**
- * -------------------------------------------------------------
- * Project: EduAI Marketplace
- * File: register.tsx
- * Author: Caner Taha Yilmaz
- * Created: 14 Feb 2026
- * Description: Registration screen allowing new users to create an
- * account by providing email, school, canton, and password details.
- * -------------------------------------------------------------
- */
+/*
+╔══════════════════════════════════════════════════════╗
+║  ⚠  WARNING: DEVELOPER WAS HERE                      ║
+╠══════════════════════════════════════════════════════╣
+║  Project   : EduAI Marketplace                       ║
+║  File      : register.tsx                            ║
+║  Author    : Caner Taha Yilmaz                       ║
+║  Since     : 14 Feb 2026                             ║
+║                                                      ║
+║  Responsibility:                                     ║
+║  → Registration UI: creates new user profiles.       ║
+║                                                      ║
+║  Known Facts:                                        ║
+║  • Validation is kindness (to future you).           ║
+║  • Users will paste spaces into emails.              ║
+║                                                      ║
+║  If registration fails…                              ║
+║  it’s probably not the gradient’s fault.             ║
+╚══════════════════════════════════════════════════════╝
+*/
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, TextInput, Pressable, KeyboardAvoidingView, Platform, ScrollView, Image } from 'react-native';
 import { useRouter } from 'expo-router';
