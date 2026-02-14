@@ -1,3 +1,13 @@
+/**
+ * -------------------------------------------------------------
+ * Project: EduAI Marketplace
+ * File: login.tsx
+ * Author: Caner Taha Yilmaz
+ * Created: 14 Feb 2026
+ * Description: Login screen handling user authentication input,
+ * navigation to registration, and redirect to the main tab layout.
+ * -------------------------------------------------------------
+ */
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, TextInput, Pressable, KeyboardAvoidingView, Platform, ScrollView, Image } from 'react-native';
 import { useRouter } from 'expo-router';

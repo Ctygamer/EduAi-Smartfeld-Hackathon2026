@@ -1,3 +1,13 @@
+/**
+ * -------------------------------------------------------------
+ * Project: EduAI Marketplace
+ * File: GradientBackground.tsx
+ * Author: Caner Taha Yilmaz
+ * Created: 14 Feb 2026
+ * Description: Reusable gradient background component wrapping
+ * screens with a consistent diagonal gradient theme.
+ * -------------------------------------------------------------
+ */
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';

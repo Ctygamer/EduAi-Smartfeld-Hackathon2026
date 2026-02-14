@@ -1,3 +1,13 @@
+/**
+ * -------------------------------------------------------------
+ * Project: EduAI Marketplace
+ * File: (create)/index.tsx
+ * Author: Caner Taha Yilmaz
+ * Created: 14 Feb 2026
+ * Description: Create Post screen allowing users to publish new
+ * teaching materials including text content and file uploads.
+ * -------------------------------------------------------------
+ */
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, TextInput, ScrollView, Pressable, Image } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';

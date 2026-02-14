@@ -1,3 +1,13 @@
+/**
+ * -------------------------------------------------------------
+ * Project: EduAI Marketplace
+ * File: (favorites)/index.tsx
+ * Author: Caner Taha Yilmaz
+ * Created: 14 Feb 2026
+ * Description: Favorites screen displaying all bookmarked teaching
+ * materials with navigation to detailed material views.
+ * -------------------------------------------------------------
+ */
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, FlatList } from 'react-native';
 import { useRouter } from 'expo-router';

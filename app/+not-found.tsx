@@ -1,3 +1,13 @@
+/**
+ * -------------------------------------------------------------
+ * Project: EduAI Marketplace
+ * File: +not-found.tsx
+ * Author: Caner Taha Yilmaz
+ * Created: 14 Feb 2026
+ * Description: Custom fallback screen displayed when a requested
+ * route does not exist within the application.
+ * -------------------------------------------------------------
+ */
 import { Link, Stack } from 'expo-router';
 import { StyleSheet, View, Text } from 'react-native';
 import Colors from '@/constants/colors';

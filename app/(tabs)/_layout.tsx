@@ -1,3 +1,13 @@
+/**
+ * -------------------------------------------------------------
+ * Project: EduAI Marketplace
+ * File: (tabs)/_layout.tsx
+ * Author: Caner Taha Yilmaz
+ * Created: 14 Feb 2026
+ * Description: Main tab navigation layout configuring bottom
+ * navigation, icons, and styling for the core application sections.
+ * -------------------------------------------------------------
+ */
 import { Tabs } from 'expo-router';
 import { Home, MessageCircle, Plus, Heart, User } from 'lucide-react-native';
 import React from 'react';

@@ -1,3 +1,13 @@
+/**
+ * -------------------------------------------------------------
+ * Project: EduAI Marketplace
+ * File: (profile)/index.tsx
+ * Author: Caner Taha Yilmaz
+ * Created: 14 Feb 2026
+ * Description: Profile screen displaying user information, statistics,
+ * personal materials overview, and account actions.
+ * -------------------------------------------------------------
+ */
 import React from 'react';
 import { StyleSheet, View, Text, Image, ScrollView, Pressable } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';

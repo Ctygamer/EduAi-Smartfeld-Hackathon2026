@@ -1,3 +1,14 @@
+/**
+ * -------------------------------------------------------------
+ * Project: EduAI Marketplace
+ * File: MaterialCard.tsx
+ * Author: Caner Taha Yilmaz
+ * Created: 14 Feb 2026
+ * Description: Reusable card component displaying teaching material
+ * preview information including title, author, tags, and interaction
+ * statistics (likes, comments, bookmarks).
+ * -------------------------------------------------------------
+ */
 import React from 'react';
 import { StyleSheet, View, Text, Image, Pressable } from 'react-native';
 import { Heart, MessageCircle, Bookmark } from 'lucide-react-native';

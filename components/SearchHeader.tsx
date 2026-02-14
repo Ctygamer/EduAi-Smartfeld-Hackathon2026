@@ -1,3 +1,13 @@
+/**
+ * -------------------------------------------------------------
+ * Project: EduAI Marketplace
+ * File: SearchHeader.tsx
+ * Author: Caner Taha Yilmaz
+ * Created: 14 Feb 2026
+ * Description: Reusable header component providing search
+ * functionality, navigation menu access, and Smartfeld branding.
+ * -------------------------------------------------------------
+ */
 import React from 'react';
 import { StyleSheet, View, TextInput, Pressable, Image } from 'react-native';
 import { Search, Menu } from 'lucide-react-native';

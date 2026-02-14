@@ -1,3 +1,13 @@
+/**
+ * -------------------------------------------------------------
+ * Project: EduAI Marketplace
+ * File: (messages)/index.tsx
+ * Author: Caner Taha Yilmaz
+ * Created: 14 Feb 2026
+ * Description: Messages screen displaying user conversations and
+ * integrated EduAI assistant interaction area.
+ * -------------------------------------------------------------
+ */
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, FlatList, Pressable, Image } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';

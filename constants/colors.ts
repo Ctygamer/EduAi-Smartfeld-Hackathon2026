@@ -1,3 +1,13 @@
+/**
+ * -------------------------------------------------------------
+ * Project: EduAI Marketplace
+ * File: colors.ts
+ * Author: Caner Taha Yilmaz
+ * Created: 14 Feb 2026
+ * Description: Centralized design system color configuration used
+ * across the application for consistent theming and UI styling.
+ * -------------------------------------------------------------
+ */
 export default {
   primary: '#75104E',
   primaryLight: '#75104E',

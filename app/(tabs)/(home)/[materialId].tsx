@@ -1,3 +1,13 @@
+/**
+ * -------------------------------------------------------------
+ * Project: EduAI Marketplace
+ * File: [materialId].tsx
+ * Author: Caner Taha Yilmaz
+ * Created: 14 Feb 2026
+ * Description: Material detail screen displaying full information,
+ * interactions (like, bookmark, share), and download functionality.
+ * -------------------------------------------------------------
+ */
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, ScrollView, Image, Pressable } from 'react-native';
 import { useLocalSearchParams } from 'expo-router';

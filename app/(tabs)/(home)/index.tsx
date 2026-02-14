@@ -1,3 +1,13 @@
+/**
+ * -------------------------------------------------------------
+ * Project: EduAI Marketplace
+ * File: (home)/index.tsx
+ * Author: Caner Taha Yilmaz
+ * Created: 14 Feb 2026
+ * Description: Home screen displaying searchable teaching materials
+ * in a feed-style list with navigation to detailed views.
+ * -------------------------------------------------------------
+ */
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, FlatList } from 'react-native';
 import { useRouter } from 'expo-router';

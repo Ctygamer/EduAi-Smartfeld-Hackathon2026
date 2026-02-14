@@ -1,3 +1,13 @@
+/**
+ * -------------------------------------------------------------
+ * Project: EduAI Marketplace
+ * File: data.ts
+ * Author: Caner Taha Yilmaz
+ * Created: 14 Feb 2026
+ * Description: Mock data configuration providing sample users,
+ * materials, and messages for development and UI prototyping.
+ * -------------------------------------------------------------
+ */
 import { Material, Message, User } from '@/types';
 
 export const currentUser: User = {

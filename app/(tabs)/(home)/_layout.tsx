@@ -1,3 +1,13 @@
+/**
+ * -------------------------------------------------------------
+ * Project: EduAI Marketplace
+ * File: (home)/_layout.tsx
+ * Author: Caner Taha Yilmaz
+ * Created: 14 Feb 2026
+ * Description: Stack layout configuration for the Home tab,
+ * including navigation and header styling for material screens.
+ * -------------------------------------------------------------
+ */
 import { Stack } from 'expo-router';
 import Colors from '@/constants/colors';
 
